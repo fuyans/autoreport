@@ -1,0 +1,21 @@
+{
+  "name": "autoreport-backend",
+  "version": "1.0.0",
+  "description": "Batch DOCX generator API",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "cors": "^2.8.5",
+    "libreoffice-convert": "^1.7.0",
+    "docxtemplater": "^3.50.0",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "pizzip": "^3.1.6",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  }
+}
